@@ -1,12 +1,6 @@
 #!/usr/bin/python3
-
-"""
-This is a module that performs addition.
-"""
-
-from add_0 import add
-
-A = 1
-B = 2
-
-print(f"{A} + {B} = {add(A, B)}")
+if __name__ == "__main__":
+    from add_0 import add
+a = 1
+b = 2
+print("{} + {} = {}".format(a, b, add(a, b)))
